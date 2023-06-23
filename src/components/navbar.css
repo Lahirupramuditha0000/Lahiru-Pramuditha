@@ -1,0 +1,29 @@
+.nav-link:hover {
+  background-color: green;
+  color: white;
+}
+
+.profile-image {
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s;
+}
+
+.profile-image:hover {
+  border: solid 5px;
+  border-color:darkslategrey;
+  transform: scale(1.1);
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .profile-image {
+    /* Adjust the styles for mobile devices */
+    /* Example: Increase the size of the profile image */
+    width: 50px;
+    height: 50px;
+  }
+}
