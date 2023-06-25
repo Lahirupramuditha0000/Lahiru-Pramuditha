@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
 import Intro from '../components/introduction/Intro';
 import Skill from '../components/skills/Skill';
 import Certficates from '../components/certficategaller/Certficates';
