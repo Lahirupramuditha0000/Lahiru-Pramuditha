@@ -17,7 +17,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
         </Routes>
 
-        <Home/>
+       <Home/> 
       </div>
     </Router>
   );
