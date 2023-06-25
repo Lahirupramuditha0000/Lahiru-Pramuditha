@@ -12,13 +12,15 @@ function App() {
       <div className="App">
         <Navbar /> {/* Render Navbar component */}
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="http:Lahirupramuditha0000.gihub.io/Lahiru-Pramuditha" element={<Home />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>
         
+        
       </div>
     </Router>
+
   );
 }
 
