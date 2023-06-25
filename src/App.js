@@ -18,6 +18,7 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>
+        
       </div>
     </Router>
   );

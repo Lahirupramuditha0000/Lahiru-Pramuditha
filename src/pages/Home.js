@@ -1,7 +1,4 @@
-// Home.js
-
 import React from 'react';
-import Navbar from '../components/Navbar';
 import Intro from '../components/introduction/Intro';
 import Skill from '../components/skills/Skill';
 import Certficates from '../components/certficategaller/Certficates';
@@ -11,7 +8,6 @@ import './home.css';
 export default function Home() {
   return (
     <div>
-      
       {/* Content of the home page */}
       <Intro />
       {/* skills */}
@@ -19,7 +15,7 @@ export default function Home() {
       <Skill />
       <br />
 
-      {/* certficates gallery */}
+      {/* certficates gallery*/}
       <Certficates />
 
       {/* footer */}
