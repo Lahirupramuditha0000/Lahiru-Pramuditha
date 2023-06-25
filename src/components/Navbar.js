@@ -39,6 +39,7 @@ const NavigationBar = () => {
             href="https://github.com/Lahirupramuditha0000"
             target="_blank"
             rel="noopener noreferrer"
+            className="nav-link"
           >
             <FaGithub className="icon" />
           </Nav.Link>
@@ -46,6 +47,7 @@ const NavigationBar = () => {
             href="https://www.linkedin.com/in/lahiru-pramuditha-345441274/"
             target="_blank"
             rel="noopener noreferrer"
+            className="nav-link"
           >
             <FaLinkedin className="icon" />
           </Nav.Link>
