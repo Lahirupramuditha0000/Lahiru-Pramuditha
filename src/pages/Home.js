@@ -1,27 +1,29 @@
+// Home.js
+
 import React from 'react';
+import Navbar from '../components/Navbar';
 import Intro from '../components/introduction/Intro';
 import Skill from '../components/skills/Skill';
 import Certficates from '../components/certficategaller/Certficates';
 import Footer from '../components/footer/Footer';
-import './home.css'
+import './home.css';
 
 export default function Home() {
   return (
     <div>
       
       {/* Content of the home page */}
-      <Intro/>
-     {/*skills*/}<br/>
-     <Skill/><br/>
+      <Intro />
+      {/* skills */}
+      <br />
+      <Skill />
+      <br />
 
-     {/* certficates gallery*/}
-     <Certficates/>
-    
+      {/* certficates gallery */}
+      <Certficates />
 
-
-
-    {/*footer*/}
-    <Footer/>
+      {/* footer */}
+      <Footer />
     </div>
   );
 }
