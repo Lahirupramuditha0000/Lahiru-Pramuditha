@@ -8,7 +8,7 @@ import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <div className="App">
         <Navbar /> {/* Render Navbar component */}
         <Routes>
