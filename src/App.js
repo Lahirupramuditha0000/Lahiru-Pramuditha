@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './pages/Home';
@@ -16,9 +16,9 @@ function App() {
   }, [location]);
 
   return (
-    <Router>
+    <Router basename="/lahiru-pramuditha">
       <div className="App">
-        <Navbar /> {/* Render Navbar component */}
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/blog" element={<Blog />} />
