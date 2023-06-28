@@ -1,0 +1,70 @@
+.loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    z-index: 9999;
+  }
+  
+  .loading-screen.hide {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .loading-animation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .code-typing {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #00ff00;
+    font-family: monospace;
+    font-size: 18px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .code-typing code {
+    margin-bottom: 5px;
+    animation: typing-animation 3s steps(55, end);
+  }
+  
+  @keyframes typing-animation {
+    from {
+      width: 0;
+    }
+  }
+  
+  .welcome-screen {
+    opacity: 0;
+    animation: fade-in 1s 1.5s forwards;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 0.4;
+    }
+  }
+  
+  .loading-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #00ff00;
+  }
+  
